@@ -1,0 +1,132 @@
+h1 {
+  font-family: "Young Serif";
+  font-weight: 200;
+  color: hsl(24, 5%, 18%);
+}
+
+p {
+  font-family: "Outfit";
+  font-size: 12px;
+}
+
+.tempo-de-preparacao li {
+  padding-left: 5px;
+  margin: 10px;
+}
+
+.tempo-de-preparacao ul {
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  font-size: 14px;
+}
+
+.tempo-de-preparacao h2 {
+  font-family: "Outfit";
+  padding-left: 25px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  font-size: 18px;
+}
+
+.instrucoes li {
+  margin: 0 -25px;
+  padding-left: 20px;
+  font-family: "Outfit";
+  font-size: 13px;
+  padding-bottom: 8px;
+  color: hsl(24, 5%, 18%);
+}
+
+.instrucoes li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.instrucoes {
+  border-bottom: 1px solid;
+  color: hsl(30, 18%, 87%);
+}
+
+h2 {
+  font-family: "Young Serif";
+  font-weight: 200;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients {
+  border-bottom: 1px solid;
+  color: hsl(30, 18%, 87%);
+}
+
+.ingredients li {
+  margin: 0 -17px;
+  padding-left: 10px;
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  font-size: 14px;
+  line-height: 2em;
+}
+
+.nutrition {
+  font-size: 13px;
+  color: hsl(24, 5%, 18%);
+  padding-bottom: 10px;
+}
+
+.table {
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  font-size: 12px;
+}
+
+.item {
+  border-bottom: 1px solid;
+  border-bottom-color: hsl(30, 18%, 87%);
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+.info {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  align-self: center;
+  display: flex;
+  display: inline;
+  padding-right: 100px;
+}
+.grey-color {
+  max-width: 1000px;
+}
+
+.tempo-de-preparacao {
+  background-color: hsl(330, 100%, 98%);
+  padding: 8px;
+  border-radius: 15px;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  padding-top: 60px;
+}
+
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  height: 1270px;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+img {
+  width: 500px;
+  border-radius: 15px;
+}
